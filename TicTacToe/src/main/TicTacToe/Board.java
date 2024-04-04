@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class Board {
 
-    static final int size = 3;
+    public static final int size = 3;
     public enum State {Blank, X, O}
 
     private State[][] board;
@@ -15,7 +15,7 @@ public class Board {
     private int moveCount;
     private boolean gameOver;
 
-    Board() {
+    public Board() {
         board = new State[size][size];
         movesAvailable = new HashSet<>();
         reset();
@@ -35,7 +35,7 @@ public class Board {
         }
     }
 
-    void reset() {
+    public void reset() {
         moveCount = 0;
         gameOver = false;
         playerTurn = State.X;
@@ -79,7 +79,7 @@ public class Board {
         return gameOver;
     }
 
-    State[][] toArray() {
+    public State[][] toArray() {
         return board.clone();
     }
 

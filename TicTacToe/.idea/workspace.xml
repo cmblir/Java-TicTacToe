@@ -21,6 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -37,6 +40,13 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.BoardTest.executor": "Run",
     "JUnit.BoardTest.reset.executor": "Run",
+    "JUnit.BoardTest.testCheckCol_NonWinningCol.executor": "Run",
+    "JUnit.BoardTest.testCheckDiagonalFromTopLeft_NonWinningDiagonal.executor": "Run",
+    "JUnit.BoardTest.testCheckDiagonalFromTopRight_NonWinningDiagonal.executor": "Run",
+    "JUnit.BoardTest.testCheckRow_NonWinningRow.executor": "Run",
+    "JUnit.BoardTest.testGetDeepCopy.executor": "Run",
+    "JUnit.BoardTest.testReset.executor": "Run",
+    "JUnit.BoardTest.testToString.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -79,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardTest.reset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardTest.testCheckCol_NonWinningCol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TicTacToe" />
       <extension name="coverage">
         <pattern>
@@ -89,7 +99,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.BoardTest" />
-      <option name="METHOD_NAME" value="reset" />
+      <option name="METHOD_NAME" value="testCheckCol_NonWinningCol" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardTest.testCheckDiagonalFromTopLeft_NonWinningDiagonal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTacToe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BoardTest" />
+      <option name="METHOD_NAME" value="testCheckDiagonalFromTopLeft_NonWinningDiagonal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardTest.testCheckDiagonalFromTopRight_NonWinningDiagonal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTacToe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BoardTest" />
+      <option name="METHOD_NAME" value="testCheckDiagonalFromTopRight_NonWinningDiagonal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTacToe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BoardTest" />
+      <option name="METHOD_NAME" value="testToString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,7 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BoardTest" />
-        <item itemvalue="JUnit.BoardTest.reset" />
+        <item itemvalue="JUnit.BoardTest.testToString" />
+        <item itemvalue="JUnit.BoardTest.testCheckDiagonalFromTopRight_NonWinningDiagonal" />
+        <item itemvalue="JUnit.BoardTest.testCheckDiagonalFromTopLeft_NonWinningDiagonal" />
+        <item itemvalue="JUnit.BoardTest.testCheckCol_NonWinningCol" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +180,7 @@
       <updated>1712152785710</updated>
       <workItem from="1712152786762" duration="1372000" />
       <workItem from="1712155093382" duration="2979000" />
-      <workItem from="1712235443772" duration="2212000" />
+      <workItem from="1712235443772" duration="5162000" />
     </task>
     <servers />
   </component>

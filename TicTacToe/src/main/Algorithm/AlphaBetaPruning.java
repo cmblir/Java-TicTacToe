@@ -1,6 +1,6 @@
-package Algorithm;
+package main.Algorithm;
 
-import TicTacToe.Board;
+import main.TicTacToe.Board;
 
 public class AlphaBetaPruning {
     private static double maxPly;

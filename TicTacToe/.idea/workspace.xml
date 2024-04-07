@@ -13,17 +13,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -38,6 +38,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AlphaBetaPruningTest.executor": "Run",
+    "JUnit.AlphaBetaPruningTest.testRun_Draw.executor": "Run",
     "JUnit.BoardTest.executor": "Run",
     "JUnit.BoardTest.reset.executor": "Run",
     "JUnit.BoardTest.testCheckCol_NonWinningCol.executor": "Run",
@@ -73,7 +75,38 @@
       <recent name="main.TicTacToe" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoardTest">
+  <component name="RunManager" selected="JUnit.AlphaBetaPruningTest.testRun_Draw">
+    <configuration name="AlphaBetaPruningTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTacToe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AlphaBetaPruningTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlphaBetaPruningTest.testRun_Draw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTacToe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AlphaBetaPruningTest" />
+      <option name="METHOD_NAME" value="testRun_Draw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TicTacToe" />
       <extension name="coverage">
@@ -85,38 +118,6 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.BoardTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardTest.testCheckCol_NonWinningCol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TicTacToe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BoardTest" />
-      <option name="METHOD_NAME" value="testCheckCol_NonWinningCol" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardTest.testCheckDiagonalFromTopLeft_NonWinningDiagonal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TicTacToe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BoardTest" />
-      <option name="METHOD_NAME" value="testCheckDiagonalFromTopLeft_NonWinningDiagonal" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlphaBetaPruningTest.testRun_Draw" />
+        <item itemvalue="JUnit.AlphaBetaPruningTest" />
         <item itemvalue="JUnit.BoardTest" />
         <item itemvalue="JUnit.BoardTest.testToString" />
         <item itemvalue="JUnit.BoardTest.testCheckDiagonalFromTopRight_NonWinningDiagonal" />
-        <item itemvalue="JUnit.BoardTest.testCheckDiagonalFromTopLeft_NonWinningDiagonal" />
-        <item itemvalue="JUnit.BoardTest.testCheckCol_NonWinningCol" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,8 @@
       <updated>1712152785710</updated>
       <workItem from="1712152786762" duration="1372000" />
       <workItem from="1712155093382" duration="2979000" />
-      <workItem from="1712235443772" duration="5162000" />
+      <workItem from="1712235443772" duration="5655000" />
+      <workItem from="1712498969534" duration="1082000" />
     </task>
     <servers />
   </component>

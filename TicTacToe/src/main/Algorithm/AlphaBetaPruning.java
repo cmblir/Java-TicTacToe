@@ -7,7 +7,7 @@ public class AlphaBetaPruning {
 
     private AlphaBetaPruning() {}
 
-    static void run (Board.State player, Board board, double maxPly) {
+    public static void run(Board.State player, Board board, double maxPly) {
         if (maxPly < 1) throw new IllegalArgumentException("최대 깊이는 무조건 0보다 커야합니다.");
 
         AlphaBetaPruning.maxPly = maxPly;
@@ -74,7 +74,7 @@ public class AlphaBetaPruning {
         return (int) beta;
     }
 
-    private static int score (Board.State player, Board board) {
+    public static int score(Board.State player, Board board) {
         if (player == Board.State.Blank) {
             throw new IllegalArgumentException("플레이어는 무조건 X 또는 O입니다.");
         }

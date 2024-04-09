@@ -45,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Console.executor": "Run",
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.AlphaBetaPruningTest.executor": "Run",
@@ -85,9 +86,9 @@
       <recent name="main.TicTacToe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
+  <component name="RunManager" selected="Application.Console">
+    <configuration name="Console" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Console" />
       <module name="TicTacToe" />
       <extension name="coverage">
         <pattern>
@@ -163,7 +164,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Console" />
         <item itemvalue="JUnit.AlphaBetaPruningTest" />
         <item itemvalue="JUnit.AlphaBetaPruningTest.testRun_Draw" />
         <item itemvalue="JUnit.AlphaBetaPruningTest.testRun_PlayerXWins" />
@@ -190,7 +191,7 @@
       <workItem from="1712155093382" duration="2979000" />
       <workItem from="1712235443772" duration="5655000" />
       <workItem from="1712498969534" duration="1756000" />
-      <workItem from="1712670307169" duration="3686000" />
+      <workItem from="1712670307169" duration="4531000" />
     </task>
     <servers />
   </component>

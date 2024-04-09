@@ -1,15 +1,43 @@
 package main;
 
 import main.TicTacToe.Board;
+import main.Algorithm.AlphaBetaPruning;
+
+import java.util.Scanner;
 
 public class Main {
-    private Board board;
-    private enum Mode {Player, AI}
-    private Mode mode;
 
-    public static void main(String[] args) {
+    private Board board;
+
+    private Scanner sc = new Scanner(System.in);
+
+    private void play() {
         System.out.println("게임을 시작합니다.");
 
+        while (true) {
+            printGameStatus();
+            playMove();
+
+            if (board.isGameOver()) {
+                printWinner();
+
+                if (!tryAgain()) {
+                    break;
+                }
+            }
+        }
     }
 
+    private void printGameStatus() {
+        System.out.println("\n" + board + "\n");
+        System.out.println(board.getTurn().name());
+    }
+
+    private void playMove() {
+        if (board.getTurn() == Board.State.X) {
+            getPlayerMove();
+        } else {
+            new AlphaBetaPruning(board);
+        }
+    }
 }

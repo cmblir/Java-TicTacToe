@@ -59,8 +59,8 @@ public class AlphaBetaPruning {
 
             int score = alphaBetaPruning(player, modifiedBoard, alpha, beta, currentPly);
 
-            if (score < alpha) {
-                alpha = score;
+            if (score < beta) {
+                beta = score;
                 indexOfBestMove = theMove;
             }
 

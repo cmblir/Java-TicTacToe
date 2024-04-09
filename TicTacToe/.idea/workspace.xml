@@ -21,6 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.1/Contents/Home/lib/src.zip!/java.base/java/lang/NullPointerException.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="JavaAutoRunManager">
     <enabled-run-configurations>
       <run-configuration type="JUnit" name="AlphaBetaPruningTest.testRun_Draw" />
@@ -187,7 +190,7 @@
       <workItem from="1712155093382" duration="2979000" />
       <workItem from="1712235443772" duration="5655000" />
       <workItem from="1712498969534" duration="1756000" />
-      <workItem from="1712670307169" duration="3015000" />
+      <workItem from="1712670307169" duration="3686000" />
     </task>
     <servers />
   </component>

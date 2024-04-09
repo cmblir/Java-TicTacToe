@@ -1,7 +1,7 @@
 package main;
 
+import main.Algorithm.Algorithms;
 import main.TicTacToe.Board;
-import main.Algorithm.AlphaBetaPruning;
 
 import java.util.Scanner;
 
@@ -37,7 +37,7 @@ public class Main {
         if (board.getTurn() == Board.State.X) {
             getPlayerMove();
         } else {
-            new AlphaBetaPruning(board);
+            Algorithms.alphaBetaAdvance(board);
         }
     }
 }

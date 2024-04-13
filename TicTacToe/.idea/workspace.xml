@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8996596a-be87-4495-9f9f-6e5cf3fd4cc9" name="Changes" comment="" />
+    <list default="true" id="8996596a-be87-4495-9f9f-6e5cf3fd4cc9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/TicTacToe/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/test/AlphaBetaPruningTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/test/BoardTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,9 +74,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Console.executor": "Run",
+    "Application.Console.executor": "Profiler#1",
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build TicTacToe.executor": "Run",
     "JUnit.AlphaBetaPruningTest.executor": "Run",
     "JUnit.AlphaBetaPruningTest.testRun_Draw.executor": "Run",
     "JUnit.AlphaBetaPruningTest.testRun_PlayerXWins.executor": "Debug",
@@ -95,15 +105,20 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="main.TicTacToe" />
@@ -222,11 +237,17 @@
       <workItem from="1712235443772" duration="5655000" />
       <workItem from="1712498969534" duration="1756000" />
       <workItem from="1712670307169" duration="5220000" />
-      <workItem from="1712933407810" duration="452000" />
+      <workItem from="1712933407810" duration="818000" />
+      <workItem from="1713014628323" duration="442000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
